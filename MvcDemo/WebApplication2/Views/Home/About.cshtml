@@ -1,0 +1,21 @@
+﻿@*@using WebApplication2.Models
+    @using WebApplication2.Controllers
+    @model ViewModel*@
+
+@using WebApplication2.Models
+
+@model Tuple<List<Teacher>, List<Student>>
+@{
+    ViewBag.Title = "About";
+    //IEnumerable<Teacher> Teachers = ViewData["teachers"] as IEnumerable<Teacher>;
+    //IEnumerable<Student> Students = ViewData["students"] as IEnumerable<Student>;
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+@{
+    Html.RenderAction("Students");
+    Html.RenderAction("Teachers");
+}
+
+<p>Use this area to provide additional information.</p>

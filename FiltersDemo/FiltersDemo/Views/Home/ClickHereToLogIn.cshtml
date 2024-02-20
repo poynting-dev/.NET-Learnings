@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "ClickHereToLogIn";
+}
+@functions{
+    //This function will generate @Html.AntiForgeryToken() once the user is authenticated,
+    //so you have to refresh the page 2 times, to make this happen, otherwise this will not generate antiForgeryToken :-]
+    public object GetAntiForgeryToken()
+    {
+        if (User.Identity.IsAuthenticated)
+        {
+            return @Html.AntiForgeryToken();
+        }
+        return null;
+    }
+}
+<h2>ClickHereToLogIn</h2>
+
+@using (@Html.BeginRouteForm("submitFeedback", FormMethod.Post))
+{
+    <!-- Intentionally omitting or tampering with the Anti-Forgery Token will genrate the issue with submitting data-->
+    @*@Html.AntiForgeryToken()*@
+    @GetAntiForgeryToken();
+    <label for="feedback">Feedback:</label>
+
+<textarea id="feedback" rows="4" cols="8" name="feedback"></textarea>
+
+
+    <br />
+
+    <button type="submit" value="submit">Submit</button>
+}
+<hr />
+<hr />
+<br />
+
+@using (Ajax.BeginRouteForm("submitFeedback", new AjaxOptions { HttpMethod = "POST", UpdateTargetId = "resultHere" }))
+{
+    @Html.AntiForgeryToken()
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" rows="4" cols="8" name="feedback"></textarea>
+
+    <br />
+    <button type="submit" value="submit">Submit</button>
+}
+
+<div>
+    Result Here:
+    <div id="resultHere">
+
+    </div>
+</div>
+
+@section scripts {
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Include jQuery Unobtrusive Ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajax-unobtrusive/3.2.6/jquery.unobtrusive-ajax.min.js"></script>
+}

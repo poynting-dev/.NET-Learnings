@@ -1,0 +1,40 @@
+OnResultExecuted- controller:Home action:IndexOnActionExecuting- controller:Home action:IndexOnActionExecuted- controller:Home action:IndexOnResultExecuting - controller:Home action:IndexOnResultExecuted- controller:Home action:IndexOnActionExecuting- controller:Home action:ClickHereToLogInOnActionExecuted- controller:Home action:ClickHereToLogInOnResultExecuting - controller:Home action:ClickHereToLogInOnResultExecuted- controller:Home action:ClickHereToLogInOnActionExecuting- controller:Home action:LoggedUserOnActionExecuted- controller:Home action:LoggedUserOnResultExecuting - controller:Home action:LoggedUserOnResultExecuted- controller:Home action:LoggedUserOnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index
+OnResultExecuting - controller:Home action:Index
+OnResultExecuted- controller:Home action:Index
+OnActionExecuting- controller:Home action:NoAuthPage
+OnActionExecuted- controller:Home action:NoAuthPage
+OnResultExecuting - controller:Home action:NoAuthPage
+OnResultExecuted- controller:Home action:NoAuthPage
+OnActionExecuting- controller:Home action:ClickHereToLogIn
+OnActionExecuted- controller:Home action:ClickHereToLogIn
+OnResultExecuting - controller:Home action:ClickHereToLogIn
+OnResultExecuted- controller:Home action:ClickHereToLogIn
+OnActionExecuting- controller:Home action:About
+OnActionExecuted- controller:Home action:About
+OnResultExecuting - controller:Home action:About
+OnResultExecuted- controller:Home action:About
+OnActionExecuting- controller:Home action:NoAuthPage
+OnActionExecuted- controller:Home action:NoAuthPage
+OnResultExecuting - controller:Home action:NoAuthPage
+OnResultExecuted- controller:Home action:NoAuthPage
+OnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index
+OnResultExecuting - controller:Home action:Index
+OnResultExecuted- controller:Home action:Index
+OnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index
+OnResultExecuting - controller:Home action:Index
+OnResultExecuted- controller:Home action:Index
+OnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index
+OnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index
+OnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index
+OnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index
+OnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index
+OnActionExecuting- controller:Home action:Index
+OnActionExecuted- controller:Home action:Index

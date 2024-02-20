@@ -1,0 +1,7 @@
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\SOLID\SOLID\obj\Debug\SOLID.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\SOLID\SOLID\obj\Debug\SOLID.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\SOLID\SOLID\bin\Debug\SOLID.exe.config
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\SOLID\SOLID\bin\Debug\SOLID.exe
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\SOLID\SOLID\bin\Debug\SOLID.pdb
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\SOLID\SOLID\obj\Debug\SOLID.exe
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\SOLID\SOLID\obj\Debug\SOLID.pdb

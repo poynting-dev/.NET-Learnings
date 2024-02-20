@@ -1,0 +1,20 @@
+﻿@using WebApplication2.Models
+
+@model IEnumerable<Student>
+
+
+<p>@Html.DisplayNameFor(model => model.StudentId)</p>
+<p>@Html.DisplayNameFor(model => model.Code)</p>
+<p>@Html.DisplayNameFor(model => model.Name)</p>
+
+@foreach (Student student in Model)
+{
+    <div style="
+    display: flex;
+    gap: 5%;
+">
+        <p>@Html.DisplayFor(model => student.StudentId)</p>
+        <p>@Html.DisplayFor(model => student.Code)</p>
+        <p>@Html.DisplayFor(model => student.Name)</p>
+    </div>
+}

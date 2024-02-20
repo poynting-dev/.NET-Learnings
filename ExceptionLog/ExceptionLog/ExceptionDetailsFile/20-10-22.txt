@@ -1,0 +1,48 @@
+-----------Exception Details on  10/20/2022 12:15:13 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10/20/2022 12:15:12 PM
+
+Error Line No : nously)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Incorrect syntax near '='.
+
+ Error Page Url: https://localhost:44332/Login/Edit/1
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+
+-----------Exception Details on  10/20/2022 6:31:10 PM-----------------
+-------------------------------------------------------------------------------------
+
+
+
+Log Written Date: 10/20/2022 6:31:10 PM
+
+Error Line No : nously)
+
+Error Message: SqlException
+
+Exception Type: System.Data.SqlClient.SqlException
+
+Error Location : Incorrect syntax near '*'.
+
+ Error Page Url: https://localhost:44332/Login/Edit/3
+
+User Host IP: 
+
+
+--------------------------------*End*------------------------------------------
+
+
+

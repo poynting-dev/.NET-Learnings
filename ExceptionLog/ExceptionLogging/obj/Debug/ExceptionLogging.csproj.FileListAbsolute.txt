@@ -1,0 +1,6 @@
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\ExceptionLog\ExceptionLogging\bin\Debug\ExceptionLogging.dll
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\ExceptionLog\ExceptionLogging\bin\Debug\ExceptionLogging.pdb
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\ExceptionLog\ExceptionLogging\obj\Debug\ExceptionLogging.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\ExceptionLog\ExceptionLogging\obj\Debug\ExceptionLogging.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\ExceptionLog\ExceptionLogging\obj\Debug\ExceptionLogging.dll
+C:\Users\HP\Documents\Visual Studio 2022\Code Snippets\ExceptionLog\ExceptionLogging\obj\Debug\ExceptionLogging.pdb

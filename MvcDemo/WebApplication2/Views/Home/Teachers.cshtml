@@ -1,0 +1,15 @@
+﻿@using WebApplication2.Models
+
+@model IEnumerable<Teacher>
+
+@foreach (Teacher teacher in Model)
+{
+    <div style="
+    display: flex;
+    gap: 5%;
+">
+        <p>@teacher.TeacherId</p>
+        <p>@teacher.Code</p>
+        <p>@teacher.Name</p>
+    </div>
+}
